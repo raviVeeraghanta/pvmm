@@ -3,19 +3,29 @@ Real-time pitch monitoring and tuner for voice training. Helps overcome auditory
 Features
 
 ✅ Real-time pitch detection
+
 ✅ Visual tuner bar with color coding
+
 ✅ Live audio monitoring (with headphone detection)
+
 ✅ Reference tone player (C2-C5)
+
 ✅ Visual metronome (silent, 4/4 and 8/8 time signatures)
+
 ✅ Dark mode support
+
 ✅ PWA - works offline
+
 ✅ Wake Lock - keeps screen on during practice
 
 Tech Stack
 
 Lit 3.x - Web components
+
 Tailwind CSS 4.x - Styling
+
 Vite 7.x - Build tool
+
 Web Audio API - Audio processing
 
 Setup
@@ -71,6 +81,7 @@ Works offline once installed as PWA
 
 Project Structure
 voice-monitor/
+
 ├── public/
 │   ├── manifest.json
 │   └── icons/
@@ -112,14 +123,19 @@ Service worker must register successfully
 Browser Support
 
 Chrome/Edge 90+
+
 Safari 15+
+
 Firefox 100+
 
 Requires:
 
 Web Audio API
+
 MediaStream API
+
 Wake Lock API
+
 Service Workers
 
 License
