@@ -1,5 +1,4 @@
-**
- * Detect if headphones are connected
+/* Detect if headphones are connected
  * @returns {Promise<boolean>}
  */
 export async function detectHeadphones() {
